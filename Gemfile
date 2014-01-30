@@ -19,8 +19,8 @@ group :doc do
   gem 'sdoc', '0.3.20', require: false
 end
 
-gem 'execjs'
-gem 'therubyracer'
+gem 'execjs', '2.0.2'
+gem 'therubyracer', '0.12.0'
 
 group :production do
   gem 'pg', '0.15.1'
